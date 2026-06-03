@@ -1,0 +1,80 @@
+[
+  {
+    "id": "e1f34a40-fedd-4adc-b60f-bad8538ef252",
+    "document_id": "1f6daabc-fd24-4b56-8a2e-3beff07c601d",
+    "content": "Stakeholder Engagement & Communication Framework\nCASE STUDY MATRIX & ACTION PLAN | FORWARD-DEPLOYED ENGINEER PROGRAM\nKAVYA'S AXIOM (PROGRAM LEAD SYNTHESIS)\n\"The best FDEs are not the ones who only understand systems. They are the ones who understand people, business problems, ambiguity, and change.\"\n1. Comprehensive Stakeholder Engagement Plan\nStakeholder / RoleClassification\nPower /\nInterest\nMendelow MatrixIdentified Project RisksEngagement & Mitigation Strategy\nStore Managers\nFrontline End-Users\nEXTERNAL\nPRIMARY\nPower: LOW\nInterest: HIGH\nKeep Informed\n(High collective adoption\nimpact)\nOperational Failure & Rejection: Active\nsystem avoidance due to perceived\ncomplexity and zero early-stage\nconsultation. Endangers total project ROI. \nProactive User-Empathy Mapping:\nExecute workshops in Week 1 instead of\nWeek 4. Capture localized UI preferences,\nshort summaries, and multilingual\nrequirements early.",
+    "chunk_index": 0,
+    "start_position": 0,
+    "end_position": 912,
+    "metadata": {
+      "strategy": "semantic",
+      "sentenceCount": 7
+    },
+    "created_at": "2026-06-03T10:35:02.236Z"
+  },
+  {
+    "id": "8724c056-c989-4743-b883-8ab21473805b",
+    "document_id": "1f6daabc-fd24-4b56-8a2e-3beff07c601d",
+    "content": "Client VP of Operations\nExecutive Sponsor\nEXTERNAL\nPRIMARY\nPower: HIGH\nInterest: HIGH\nKey Player\n(Maintains contract\nauthority)\nInstitutional Escalation: Severe\nbreakdown of trust leading to critical\ncorporate escalations 48 hours prior to\nhigh-stakes demos, threatening contract\nvalue. \nBusiness Translation Layer: Shield\nexecutives from technical jargon. Pass all\nengineering milestones through an\noutcome-driven communication filter. \nClient Operations\nManager\nDay-to-Day Product Lead\nEXTERNAL\nPRIMARY\nPower: HIGH\nInterest: HIGH\nKey Player\n(Drives timeline pressures)\nTimeline Compression: Unrealistic\ndemands (e.g., 2-week turnaround) that\nforce team silence, bypassing crucial\ninfrastructure validation steps. \nData-Backed Scope Negotiation:\nProactively present dependency\nroadmaps. Counter unrealistic timelines\nwith structured, phased rollout schedules.",
+    "chunk_index": 1,
+    "start_position": 912,
+    "end_position": 1774,
+    "metadata": {
+      "strategy": "semantic",
+      "sentenceCount": 8
+    },
+    "created_at": "2026-06-03T10:35:02.236Z"
+  },
+  {
+    "id": "4f6b9c71-6f2a-44a5-a4b6-4628cba072c1",
+    "document_id": "1f6daabc-fd24-4b56-8a2e-3beff07c601d",
+    "content": "XYZ Engineering Team\nInternal Technical Crew\nINTERNAL\nPRIMARY\nPower: HIGH\nInterest: HIGH\nKey Player\n(Executes core delivery)\nDysfunction & Defensiveness: Anxiety\nand finger-pointing under pressure. Fragile\nalignment causes retreat into\nuncommunicative silence and blame-\nshifting. \nSoft-Skills Integration: Build a cross-\nfunctional translation layer. Insulate\ndevelopment workflows from volatile client\ndynamics via clear requirement\nprocessing. \nCase Study Author\nForward-Deployed Engineer\nINTERNAL\nPRIMARY\nPower: MED\nInterest: HIGH\nKey Player\n(Bridges code & consulting)\nImposter Syndrome & Delay: Fear of\ncriticism causing hesitation in sharing raw\nPsychological Safety Building:\nNormalize rapid prototyping and early-\nstage feedback sharing.",
+    "chunk_index": 2,
+    "start_position": 1774,
+    "end_position": 2522,
+    "metadata": {
+      "strategy": "semantic",
+      "sentenceCount": 5
+    },
+    "created_at": "2026-06-03T10:35:02.237Z"
+  },
+  {
+    "id": "d9ee8560-c8fc-4ada-b0cd-80be37541f83",
+    "document_id": "1f6daabc-fd24-4b56-8a2e-3beff07c601d",
+    "content": "Prioritize\nXYZ Technologies FDE Program | Case Study Implementation FrameworkPage 1 of 3\n\nStakeholder / RoleClassification\nPower /\nInterest\nMendelow MatrixIdentified Project RisksEngagement & Mitigation Strategy\nticket categorization drafts, directly\nlowering team velocity. \nproactive communication as highly as pure\ntechnical design. \nXYZ Technologies FDE Program | Case Study Implementation FrameworkPage 2 of 3\n\nStakeholder Engagement & Communication Framework\nTARGETED COMMUNICATION GRID | EXECUTION PHASE\n2. Actionable Project Communication Plan\nTarget StakeholderCommunication ObjectiveCore Message Content (The Jargon Filter applied)\nChannel /\nMethod\nFrequencyDepthOwner\nStore ManagersOvercome system friction, build\ntrust, and ensure product\nadoption.\n✔ Business Outcome Focused:\n\"This system setup guarantees you can securely access\nlocalized inventory reports within 4 seconds via basic text\ninput.",
+    "chunk_index": 3,
+    "start_position": 2522,
+    "end_position": 3432,
+    "metadata": {
+      "strategy": "semantic",
+      "sentenceCount": 5
+    },
+    "created_at": "2026-06-03T10:35:02.237Z"
+  },
+  {
+    "id": "6970087e-75a4-4c44-98f1-8656359e538b",
+    "document_id": "1f6daabc-fd24-4b56-8a2e-3beff07c601d",
+    "content": "\" \n✕ Raw Jargon Removed: Context injection schemas,\nmulti-vector embeddings, latency indexing. \nInteractive Empathy\nWorkshops, Hands-\non UAT feedback\nloops\nWeekly\n(Inception &\nRollout)\nFunctiona\nl /\nUsability\nFDE\n(Self)\nClient VP of OperationsMaintain executive alignment\nand eliminate surprise\nescalation triggers.\n✔ Strategic Alignment:\nHigh-level roadmap metrics highlighting verification\nmilestones, systemic stability metrics, and realized business\nROI. \nExecutive Steering\nDashboards, Bi-\nweekly Pilot\nBriefings\nBi-weekly\n(and 48h\nbefore\ndemos)\nStrategic /\nHigh-\nLevel\nFDE Lead\n/ Account\nExec\nClient Operations\nManager\nManage delivery expectations\nand protect pipeline architecture.\n✔ Phased Rollout Proposal:\n\"To secure absolute data pipeline stability, we are deploying a\nlimited static pilot in 2 weeks, followed by full real-time\ningestion in Week 4.",
+    "chunk_index": 4,
+    "start_position": 3432,
+    "end_position": 4292,
+    "metadata": {
+      "strategy": "semantic",
+      "sentenceCount": 5
+    },
+    "created_at": "2026-06-03T10:35:02.237Z"
+  },
+  {
+    "id": "2845ed2b-8612-42d5-a3c9-987b7c91974d",
+    "document_id": "1f6daabc-fd24-4b56-8a2e-3beff07c601d",
+    "content": "\" \nTimeline\nDependency\nCharts, Status Sync\nMeetings\nWeekly\nStatus\nAlignment\nOperation\nal\nDepende\nncies\nFDE\nXYZ Engineering TeamMaintain architecture velocity,\nclarify features, and remove\nblame culture.\n✔ Actionable Engineering Metrics:\nDe-escalated and translated operational user stories, clear\nschema boundaries, and structured sprint backlogs. \nDaily Standups,\nSprint Planning,\nRetrospectives\nDailyTechnical\nDeep-\nDive\nFDE Lead\n/ Tech\nLead\nCase Study Author\n(FDE)\nBreak information bottlenecks\nand conquer imposter syndrome\nhurdles.\n✔ Rapid Prototyping Ideas:\nEarly-stage, unpolished ticket categorization draft logic,\nprocessing speed risk flags, and exploratory schema\nfeedback.",
+    "chunk_index": 5,
+    "start_position": 4292,
+    "end_position": 4976,
+    "metadata": {
+      "strategy": "semantic",
+      "sentenceCount": 4
+    },
+    "created_at": "2026-06-03T10:35:02.238Z"
+  }
+]

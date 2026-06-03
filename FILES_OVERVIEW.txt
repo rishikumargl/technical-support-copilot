@@ -1,0 +1,208 @@
+═══════════════════════════════════════════════════════════════════════════════
+RAG ASSISTANT - 5-PERSON TEAM PROJECT
+═══════════════════════════════════════════════════════════════════════════════
+
+STRUCTURE FOR 5 DEVELOPERS
+─────────────────────────────────────────────────────────────────────────────
+
+📂 team/
+   ├── frontend/              (Person 1 - React Developer)
+   │   └── README.md         ← Person 1 reads this first
+   │
+   ├── backend-api/           (Person 2 - API Developer)
+   │   └── README.md         ← Person 2 reads this first
+   │
+   ├── rag-services/          (Person 3 - AI/ML Developer)
+   │   └── README.md         ← Person 3 reads this first
+   │
+   ├── document-processing/   (Person 4 - Data Engineer)
+   │   └── README.md         ← Person 4 reads this first
+   │
+   └── core-utils/            (Person 5 - Infrastructure)
+       └── README.md         ← Person 5 reads this first
+
+KEY DOCUMENTATION FILES
+─────────────────────────────────────────────────────────────────────────────
+
+START HERE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📄 GETTING_STARTED_TEAM.md        Complete onboarding guide for the team
+📄 TEAM_WORKFLOW_SUMMARY.md       Quick reference - daily workflow
+📄 DEVELOPER_CHECKLISTS.md        Quick commands and examples
+
+FOR YOUR SPECIFIC ROLE:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📄 team/frontend/README.md                (Person 1)
+📄 team/backend-api/README.md             (Person 2)
+📄 team/rag-services/README.md            (Person 3)
+📄 team/document-processing/README.md     (Person 4)
+📄 team/core-utils/README.md              (Person 5)
+
+TEAM COORDINATION:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📄 TEAM_STRUCTURE.md              Team organization and responsibilities
+📄 INTEGRATION_GUIDE.md           How 5 modules integrate together
+
+PROJECT OVERVIEW:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📄 README.md                      Complete project documentation
+📄 ARCHITECTURE.md                Technical architecture details
+📄 PROJECT_SUMMARY.md             Project overview and deliverables
+
+GIT WORKFLOW FOR EACH PERSON
+─────────────────────────────────────────────────────────────────────────────
+
+EVERY PERSON FOLLOWS THIS:
+
+1️⃣  MORNING - Sync with team
+    git checkout main
+    git pull origin main
+
+2️⃣  CREATE - Your feature branch
+    git checkout -b feature/<your-module>/<feature-name>
+
+3️⃣  WORK - Make changes ONLY in team/<your-module>/
+
+4️⃣  COMMIT - Frequently throughout the day
+    git add team/<your-module>/
+    git commit -m "feat(<module>): description"
+
+5️⃣  PUSH - When feature is ready
+    git push origin feature/<your-module>/<feature-name>
+
+6️⃣  REVIEW - Create PR on GitHub
+    - Go to GitHub
+    - Click "New Pull Request"
+    - Request reviews from team
+    - Wait for approval
+    - Merge when approved
+
+MODULE ASSIGNMENTS
+─────────────────────────────────────────────────────────────────────────────
+
+Person 1 - FRONTEND
+  Module: team/frontend/
+  Builds: React UI, Chat Interface, Document Manager
+  Tech: React, Tailwind CSS, Zustand
+  Guide: team/frontend/README.md
+
+Person 2 - BACKEND API
+  Module: team/backend-api/
+  Builds: Express Routes, Controllers, API Endpoints
+  Tech: Express.js, Node.js
+  Guide: team/backend-api/README.md
+
+Person 3 - RAG SERVICES
+  Module: team/rag-services/
+  Builds: RAG Logic, Retrieval Strategies, Answer Generation
+  Tech: Node.js, OpenAI API
+  Guide: team/rag-services/README.md
+
+Person 4 - DOCUMENT PROCESSING
+  Module: team/document-processing/
+  Builds: Document Upload, Text Extraction, Chunking
+  Tech: Node.js, PDF parsing, algorithms
+  Guide: team/document-processing/README.md
+
+Person 5 - CORE UTILS (FOUNDATION - START FIRST)
+  Module: team/core-utils/
+  Builds: Embeddings, Storage, Database, Error Handling
+  Tech: Node.js, OpenAI API, PostgreSQL/JSON
+  Guide: team/core-utils/README.md
+
+DEPENDENCIES (WHEN TO START)
+─────────────────────────────────────────────────────────────────────────────
+
+Week 1:
+  ✓ Person 5 → Core Utils (no dependencies - START FIRST)
+  ✓ Person 4 → Document Processing (needs Person 5)
+  ✓ Person 3 → RAG Services (needs Person 5 & 4)
+
+Week 2:
+  ✓ Person 2 → Backend API (needs Person 3 & 4)
+
+Week 3:
+  ✓ Person 1 → Frontend (needs Person 2)
+
+GIT COMMIT TEMPLATE
+─────────────────────────────────────────────────────────────────────────────
+
+git commit -m "feat(<module>): short description
+
+- Point 1
+- Point 2
+- Point 3"
+
+EXAMPLES:
+
+Person 1: git commit -m "feat(frontend): add ChatInterface component
+- Message display with markdown
+- Input field with send button
+- Show sources and confidence"
+
+Person 2: git commit -m "feat(backend-api): add chat endpoint
+- POST /api/chat/ask
+- Validate query parameter
+- Call RAG service"
+
+Person 3: git commit -m "feat(rag-services): implement hybrid search
+- Vector search results
+- Keyword search results
+- Combined ranking"
+
+Person 4: git commit -m "feat(document-processing): add PDF extraction
+- Parse PDF files
+- Extract text
+- Handle errors"
+
+Person 5: git commit -m "feat(core-utils): add embedding cache
+- LRU cache implementation
+- Cache statistics
+- Automatic eviction"
+
+QUICK REFERENCE
+─────────────────────────────────────────────────────────────────────────────
+
+What command do you need?          See this file:
+
+Setup & installation               → GETTING_STARTED_TEAM.md
+Daily workflow                     → TEAM_WORKFLOW_SUMMARY.md
+Git commands                       → DEVELOPER_CHECKLISTS.md
+Module specific guide             → team/<your-module>/README.md
+How modules connect               → INTEGRATION_GUIDE.md
+Team organization                 → TEAM_STRUCTURE.md
+Full project docs                 → README.md
+
+SUCCESS CHECKLIST
+─────────────────────────────────────────────────────────────────────────────
+
+By end of project, each person should have:
+
+☑ 30-50 commits (8-12 per week)
+☑ Clear, descriptive commit messages
+☑ Code only in their module (team/<module>/)
+☑ At least 5 Pull Requests
+☑ Code reviews from teammates
+☑ All PRs merged to main
+☑ Clean git history
+
+GETTING HELP
+─────────────────────────────────────────────────────────────────────────────
+
+Git issue?           → DEVELOPER_CHECKLISTS.md
+Module question?     → team/<your-module>/README.md
+Integration stuck?   → INTEGRATION_GUIDE.md
+Team blocked?        → TEAM_STRUCTURE.md
+Project overview?    → README.md
+
+═══════════════════════════════════════════════════════════════════════════════
+NEXT STEPS FOR YOUR TEAM:
+
+1. Each person reads: GETTING_STARTED_TEAM.md (this gives overview)
+2. Each person reads: team/<your-module>/README.md (your specific guide)
+3. Clone repository and set up dev environment
+4. Create first feature branch
+5. Make first commit
+6. Create first Pull Request
+
+═══════════════════════════════════════════════════════════════════════════════

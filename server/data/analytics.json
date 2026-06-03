@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1a7780f5-5379-41d0-8277-4567eb04c12b",
+    "query": "How do I troubleshoot a CrashLoopBackOff error?",
+    "search_type": "demo",
+    "results_count": 1,
+    "user_feedback": null,
+    "created_at": "2026-06-03T10:32:31.853Z"
+  },
+  {
+    "id": "5c41202b-f32d-4d22-a8c0-2c5c21c7f973",
+    "query": "What causes a 502 Bad Gateway issue?",
+    "search_type": "demo",
+    "results_count": 1,
+    "user_feedback": null,
+    "created_at": "2026-06-03T10:33:05.519Z"
+  },
+  {
+    "id": "bf19b2d8-48d4-4be7-8c5c-7ef4127f2a81",
+    "query": "stakeholder management",
+    "search_type": "hybrid",
+    "results_count": 5,
+    "user_feedback": null,
+    "created_at": "2026-06-03T10:36:01.406Z"
+  }
+]
